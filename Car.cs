@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace XF_2023
 {
-    public class Car
+    public class Car:Vehicle
     {
-        public string model;
-        public string color;
-        public string name;
-        public int maxSpeed;
-        public int year;
+        private string color;
+        private string name;
+        private int maxSpeed;
+        private int year;
 
         public Car(string nameName, string colorName, int yearValue, int maxSpeedValue)
         {
